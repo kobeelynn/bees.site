@@ -1,13 +1,13 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Special+Elite&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
+  --primary-color: #BF310D  ;
+  --secondary-color:  #92AD94;
+  --accent1-color: #816C61;
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
@@ -39,6 +39,8 @@ body {
 img {
   display: block;
   margin: 0 auto;
+  width: 200px;
+  length: 200px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
@@ -64,7 +66,7 @@ header > h1, header > h2 {
 
 p {
   font-family: var(--paragraph-font);
-  color: var(--paragraph-color-on-color);
+  color: black;
   padding: 1em;
 }
 .colors {
