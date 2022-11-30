@@ -25,8 +25,8 @@ color: white;
 #logo_link {
     padding: 5px;
     padding-top: 5px;
-    justify-self: centre;
-    align-self: centre;
+    justify-self: center;
+    align-self: center;
 }
 #hero-msg h1,
 #hero-msg h4,
@@ -74,33 +74,22 @@ h4{
 }
 
 /*body*/
-.home-grid {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr)
+.img-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 70px;
 }
-.angels-img{
+.angels-img,
+.gilded-img,
+.silent-img
+{
+    box-sizing: border-box;
     border: 10px solid #816C61;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
-    max-width:100%;
-    grid-column: 2/4;
-    grid-row: 2/3;
-}
-.gilded-img{
-    border: 10px solid #816C61;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
-    max-width: 100%;
-    grid-column: 5/7;
-    grid-row: 2/3;
-}
-.silent-img{
-    border: 10px solid #816C61;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
-    max-width: 100%;
-    grid-column: 8/10;
-    grid-row: 2/3;
+    max-width: 200px;
 }
 .quote{ 
     grid-column: 3/9;
@@ -134,7 +123,7 @@ footer {
     margin-top: 25px;
     display: flex;
     justify-content: space-around;
-    align-items: centre;
+    align-items: center;
 }
 footer .social img {
     padding: 15px;
