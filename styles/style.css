@@ -128,3 +128,8 @@ footer {
 footer .social img {
     padding: 15px;
 }
+
+/*Angels and Demons Child Page*/
+.checked {
+    color: orange;
+  }
