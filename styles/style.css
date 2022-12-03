@@ -95,6 +95,8 @@ h4{
     grid-column: 3/9;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 h3{
     font-family: "Kalam", 'Bradley Hand', sans-serif; 
@@ -133,3 +135,25 @@ footer .social img {
 .checked {
     color: orange;
   }
+h1{
+    color: black;
+    font-family: "Kalam", 'Bradley Hand', sans-serif;
+    font-size: 5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h5{
+    color: black;
+    font-family: "Kalam", 'Bradley Hand', sans-serif;
+    font-size: 4em;
+    margin-top:0;
+    margin-bottom: 0;
+}
+.danbrown{
+    box-sizing: border-box;
+    border: 10px solid #816C61;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    max-width: 450px;
+    margin-top:50px;
+}
