@@ -71,8 +71,8 @@ h4{
     font-family: "Lato", 'Bradley Hand', sans-serif;
     font-size: 2em;
     margin-top: 10px;
+    margin-bottom: 0px;
 }
-
 /*body*/
 .img-gallery {
     display: flex;
@@ -130,7 +130,6 @@ footer {
 footer .social img {
     padding: 15px;
 }
-
 /*Angels and Demons Child Page*/
 .checked {
     color: orange;
@@ -157,7 +156,6 @@ h5{
     max-width: 450px;
     margin-top:50px;
 }
-
 /* faq */
 .closet-img,
 .shadow-img
